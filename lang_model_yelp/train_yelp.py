@@ -103,7 +103,7 @@ encoder = Encoder(vocab_size=vocab_size,
                   enc_h_dim=args.enc_h_dim,
                   enc_num_layers=args.enc_num_layers,
                   latent_dim=args.latent_dim,
-                  enc_dropout = 0.1) #tzy
+                  enc_dropout = 0.1) 
 decoder = Decoder(vocab_size=vocab_size,
                   dec_word_dim=args.dec_word_dim,
                   dec_h_dim=args.dec_h_dim,
